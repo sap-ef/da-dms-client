@@ -1,0 +1,118 @@
+@endpoint = https://api-sdm-di.cfapps.eu10.hana.ondemand.com
+
+@token = eyJ0eXAiOiJKV1QiLCJqaWQiOiJxM0VEd1JOMGFVZzBORGVpYTBvRGVscFAzTkVXdkhLS2NuS0dna1JYQVc0PSIsImFsZyI6IlJTMjU2Iiwiamt1IjoiaHR0cHM6Ly9lZHUtZG1zLWg0d3dnZTlkLmF1dGhlbnRpY2F0aW9uLmV1MTAuaGFuYS5vbmRlbWFuZC5jb20vdG9rZW5fa2V5cyIsImtpZCI6ImRlZmF1bHQtand0LWtleS00NDIzOTBlMjAxIn0.eyJzdWIiOiJzYi1iOWNhMzMzNi1lNGI3LTQ0OTgtOTkxMi04OThlZTI0ZTBhYWQhYjY0NTM5MnxzZG0tZGktU0RNX0RJX1BST0QtcHJvZCFiNDEwNjQiLCJpc3MiOiJodHRwczovL2VkdS1kbXMtaDR3d2dlOWQuYXV0aGVudGljYXRpb24uZXUxMC5oYW5hLm9uZGVtYW5kLmNvbS9vYXV0aC90b2tlbiIsImF1dGhvcml0aWVzIjpbInVhYS5yZXNvdXJjZSIsInNkbS1kaS1TRE1fRElfUFJPRC1wcm9kIWI0MTA2NC5zZG1idXNpbmVzc2FkbWluIiwic2RtLWRpLVNETV9ESV9QUk9ELXByb2QhYjQxMDY0LnNkbWFkbWluIiwic2RtLWRpLVNETV9ESV9QUk9ELXByb2QhYjQxMDY0LnNkbWFpdXNlciIsInNkbS1kaS1TRE1fRElfUFJPRC1wcm9kIWI0MTA2NC5zZG11c2VyIiwic2RtLWRpLVNETV9ESV9QUk9ELXByb2QhYjQxMDY0LnNkbW1pZ3JhdGlvbmFkbWluIl0sImNsaWVudF9pZCI6InNiLWI5Y2EzMzM2LWU0YjctNDQ5OC05OTEyLTg5OGVlMjRlMGFhZCFiNjQ1MzkyfHNkbS1kaS1TRE1fRElfUFJPRC1wcm9kIWI0MTA2NCIsImF1ZCI6WyJ1YWEiLCJzZG0tZGktU0RNX0RJX1BST0QtcHJvZCFiNDEwNjQiLCJzYi1iOWNhMzMzNi1lNGI3LTQ0OTgtOTkxMi04OThlZTI0ZTBhYWQhYjY0NTM5MnxzZG0tZGktU0RNX0RJX1BST0QtcHJvZCFiNDEwNjQiXSwiZXh0X2F0dHIiOnsiZW5oYW5jZXIiOiJYU1VBQSIsInN1YmFjY291bnRpZCI6IjNmMWE3OGI0LTc0NTItNGFmNy1iMTVmLWE2YTE2N2ZmNjQyMCIsInpkbiI6ImVkdS1kbXMtaDR3d2dlOWQiLCJzZXJ2aWNlaW5zdGFuY2VpZCI6ImI5Y2EzMzM2LWU0YjctNDQ5OC05OTEyLTg5OGVlMjRlMGFhZCJ9LCJ6aWQiOiIzZjFhNzhiNC03NDUyLTRhZjctYjE1Zi1hNmExNjdmZjY0MjAiLCJncmFudF90eXBlIjoiY2xpZW50X2NyZWRlbnRpYWxzIiwiYXpwIjoic2ItYjljYTMzMzYtZTRiNy00NDk4LTk5MTItODk4ZWUyNGUwYWFkIWI2NDUzOTJ8c2RtLWRpLVNETV9ESV9QUk9ELXByb2QhYjQxMDY0Iiwic2NvcGUiOlsidWFhLnJlc291cmNlIiwic2RtLWRpLVNETV9ESV9QUk9ELXByb2QhYjQxMDY0LnNkbWJ1c2luZXNzYWRtaW4iLCJzZG0tZGktU0RNX0RJX1BST0QtcHJvZCFiNDEwNjQuc2RtdXNlciIsInNkbS1kaS1TRE1fRElfUFJPRC1wcm9kIWI0MTA2NC5zZG1taWdyYXRpb25hZG1pbiIsInNkbS1kaS1TRE1fRElfUFJPRC1wcm9kIWI0MTA2NC5zZG1hZG1pbiIsInNkbS1kaS1TRE1fRElfUFJPRC1wcm9kIWI0MTA2NC5zZG1haXVzZXIiXSwiZXhwIjoxNzc1NDQ1NzY2LCJpYXQiOjE3NzU0MDI1NjYsImp0aSI6IjNiY2EyM2QxNWM3YjRjYjBiOGI0NzJjNjFlZDMzZGYyIiwicmV2X3NpZyI6IjlmYTI4ZGMxIiwiY2lkIjoic2ItYjljYTMzMzYtZTRiNy00NDk4LTk5MTItODk4ZWUyNGUwYWFkIWI2NDUzOTJ8c2RtLWRpLVNETV9ESV9QUk9ELXByb2QhYjQxMDY0In0.EdLMH1DoST93GcLZIBw2mXa7oxiSGnyn0ZLmmIgeFJqhCba3Ye_aBnkB9SM_Pp0Lb6yjMQNs1A8MEhrWzA3fWo4cxe_Xk6POfRbfLqPBD5B5CsRkWH5NslDTN0ONI3A320Q_QrOjHr_kBTcK3ZTptP7eIppWZVhMjSCVDlW-RhvhfIA3qDuYrPJl76ryKbWr7vipdpMMKGofh_FfC4mwkl5LzCL6lycwdn0-Ha9nAWo4BUrc69A7jbURvlTsliQ3c251SWmjivyUrFgnnPtOdlg_25Tih2B8OMZZdN5yMpxVcJffN2mxJD6ntvDfPCoxswbl82EyaTaMPIG1Cav1Rw
+
+### List all repositories (REST API)
+GET {{endpoint}}/rest/v2/repositories
+Accept: application/json
+Authorization: Bearer {{token}}
+
+###
+
+### List all repositories (CMIS API)
+GET {{endpoint}}/browser
+Accept: application/json
+DataServiceVersion: 2.0
+Authorization: Bearer {{token}}
+
+###
+
+@repository_id = 91aa8de9-4307-4ec4-b66b-c93b9b5437ab
+
+### Get a specific repository by ID
+GET {{endpoint}}/rest/v2/repositories/{{repository_id}}
+Accept: application/json
+Authorization: Bearer {{token}}
+
+###
+
+POST {{endpoint}}/rest/v2/repositories/
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "repository": {
+    "displayName": "Data Archiving CI Logs Repository",
+    "description": "Repository for storing CI logs from Data Archiving pipeline",
+    "externalId": "",
+    "repositoryType": "internal",
+    "isVersionEnabled": "true",
+    "isVirusScanEnabled": "true",
+    "skipVirusScanForLargeFile": "false",
+    "hashAlgorithms": "SHA-256",
+    "isContentBridgeEnabled": true
+  }
+}
+
+
+###
+
+POST {{endpoint}}/rest/v2/repositories/
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "repository": {
+    "displayName": "Data Archiving CI Logs Repository",
+    "description": "Repository for storing CI logs from Data Archiving pipeline",
+    "repositoryType": "internal",
+    "repositoryId": "repocpiarchive",
+    "externalId": "repocpiarchive"
+  }
+}
+###
+
+### Delete a repository
+DELETE {{endpoint}}/rest/v2/repositories/{repository_id}
+Accept: application/json
+Authorization: Bearer {{token}}
+
+###
+
+### Test browser url
+GET {{endpoint}}/browser
+Accept: application/json
+Authorization: Bearer {{token}}
+
+
+###
+GET https://api-sdm-di.cfapps.eu10.hana.ondemand.com/browser/ci-logs/root
+Accept: application/json
+Authorization: Bearer {{token}}
+
+###
+GET https://api-sdm-di.cfapps.eu10.hana.ondemand.com/browser/{{repository_id}}/root
+Accept: application/json
+Authorization: Bearer {{token}}
+
+###
+
+@cmisId = e0b5648000914fe86d260b96
+
+###
+GET https://api-sdm-di.cfapps.eu10.hana.ondemand.com/browser/{{cmisId}}/root
+Accept: application/json
+Authorization: Bearer {{token}}
+
+
+
+###
+GET https://api-sdm-di.cfapps.eu10.hana.ondemand.com/browser/repocpiarchive/root
+Accept: application/json
+Authorization: Bearer {{token}}
+
+
+
+
+###
+GET https://api-sdm-di.cfapps.eu10.hana.ondemand.com/browser/91aa8de9-4307-4ec4-b66b-c93b9b5437ab/root
+Accept: application/json
+Authorization: Bearer {{token}}
+
+
+###
+GET https://api-sdm-di.cfapps.eu10.hana.ondemand.com/cmis/
+Accept: application/json
+Authorization: Bearer {{token}}

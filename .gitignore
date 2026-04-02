@@ -1,0 +1,24 @@
+node_modules/
+dist/
+dist-electron/
+.DS_Store
+*.log
+.env
+*.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Electron
+out/
+docs/
+.playwright/
+.playwright-cli/
+.claude/
+resources/
