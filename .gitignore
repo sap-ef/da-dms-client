@@ -21,4 +21,5 @@ docs/
 .playwright/
 .playwright-cli/
 .claude/
-resources/
+resources/*
+!resources/icon.png
