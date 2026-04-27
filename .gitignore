@@ -23,3 +23,5 @@ docs/
 .claude/
 resources/*
 !resources/icon.png
+!resources/screenshots/
+sap-blog-validator-workspace/
